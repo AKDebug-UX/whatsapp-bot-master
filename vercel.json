@@ -1,9 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" },
-    { "source": "/job-details/:id", "destination": "/job-details/[id]" },
-    { "source": "/course/:id", "destination": "/course/[id]"},
-    { "source": "/sponsorship/:_id", "destination": "/sponsorship/[_id]" },
-    { "source": "/blog/:_id", "destination": "/blog/[_id]" }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
