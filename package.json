@@ -4,7 +4,7 @@
   "description": "A whatsapp User bot",
   "main": "./whatsAsena/bot.js",
   "scripts": {
-    "start": "supervisor -s bot.js"
+    "start": "node api.js && supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
